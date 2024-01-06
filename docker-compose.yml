@@ -1,0 +1,10 @@
+version: '3'
+name: smiledetector
+
+services:
+  vue-nginx-frontend:
+    container_name: vue-nginx-frontend 
+    build:
+      context: .
+    ports:
+      - "${NGINX_PORT}:80"

@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.9",
+    "@tensorflow/tfjs": "^4.15.0",
     "bulma": "^0.9.4",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
