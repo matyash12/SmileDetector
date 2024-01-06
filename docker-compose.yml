@@ -2,8 +2,7 @@ version: '3'
 name: smiledetector
 
 services:
-  vue-nginx-frontend:
-    container_name: vue-nginx-frontend 
+  vue-nginx:
     build:
       context: .
     ports:
